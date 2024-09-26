@@ -1,10 +1,11 @@
 package main
 
 import (
-    "fmt"
+	"fmt"
 )
 
 func main() {
-    fmt.Println("Is 10 even?", IsEven(10))
-    fmt.Println("Is 7 even?", IsEven(7))
+	fmt.Println("Is 10 even?", IsEven(10))
+	fmt.Println("Is 7 even?", IsEven(7))
+	fmt.Println("Square of 5:", Square(5))
 }
